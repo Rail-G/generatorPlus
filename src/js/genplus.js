@@ -1,9 +1,9 @@
 
 export default function canIterate(data) {
     try {
-        console.log(data[Symbol.iterator] instanceof Function)
+        console.log(`${data} ---> ${data[Symbol.iterator] instanceof Function}`)
     } catch (err) {
-        console.log(false)
+        console.log(`${data} ---> false`)
     }
 }
 

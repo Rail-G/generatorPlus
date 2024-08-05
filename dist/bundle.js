@@ -1,1 +1,1 @@
-(()=>{"use strict";function o(o){try{console.log(o[Symbol.iterator]instanceof Function)}catch(o){console.log(!1)}}o(new Map),o(new Set),o({}),o({[Symbol.iterator]:()=>({next:()=>({value:1,done:!0})})}),o(null),o(10),o("Netology")})();
+(()=>{"use strict";function e(e){try{console.log(`${e} ---\x3e ${e[Symbol.iterator]instanceof Function}`)}catch(o){console.log(`${e} ---\x3e false`)}}e(new Map),e(new Set),e({}),e({[Symbol.iterator]:()=>({next:()=>({value:1,done:!0})})}),e(null),e(10),e("Netology")})();
